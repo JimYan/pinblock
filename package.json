@@ -1,15 +1,25 @@
 {
-    "name": "game",
-    "version": "1.0.0",
-    "description": "",
+    "name": "ts-pinblock",
+    "version": "0.1.0",
+    "description": "pinblock",
     "main": "dist/index.js",
     "scripts": {
         "start": "tsc -w",
         "test": "jest --verbose --coverage",
         "build": "tsc"
     },
-    "keywords": [],
-    "author": "",
+    "files": [
+        "dist/"
+    ],
+    "keywords": [
+        "pinblock"
+    ],
+    "homepage": "https://github.com/JimYan/pinblock",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JimYan/pinblock.git"
+    },
+    "author": "jimyan",
     "license": "ISC",
     "devDependencies": {
         "@types/jest": "^26.0.0",
