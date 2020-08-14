@@ -12,7 +12,7 @@ pinblock 的 NodeJS 实现，支持 `DES/3DES 算法`和 `SM4 算法`。
 ## DES/3DES 算法
 
 ```ts
-import {pinblock} from 'pinblock';
+import {pinblock} from 'ts-pinblock';
 
 const pin = '123456'; // pin的长度是4-12位。
 
@@ -27,7 +27,7 @@ const pb = pinblock(pin, pan);
 ## SM4 算法
 
 ```ts
-import {pinblock} from 'pinblock';
+import {pinblock} from 'ts-pinblock';
 
 const pin = '123456'; // pin的长度是4-12位。
 
@@ -60,7 +60,7 @@ const res = pinblock(pin, pan, 16);
 把 Uint8Array 类型的数据转换为 16 进制的字符串数组.
 
 ```typescript
-import {pinblock, arr2hex} from 'pinblock';
+import {pinblock, arr2hex} from 'ts-pinblock';
 const pin = '123456';
 
 const pb = pinblock(pin);

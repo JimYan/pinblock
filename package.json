@@ -1,6 +1,6 @@
 {
     "name": "ts-pinblock",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "pinblock",
     "main": "dist/index.js",
     "scripts": {
