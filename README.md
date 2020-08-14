@@ -21,7 +21,7 @@ const pb = pinblock(pin);
 
 //——ANSIX9.8 格式（带主账号信息）
 const pan = '123456789012345678';
-const pb = pinblock2(pin, pan);
+const pb = pinblock(pin, pan);
 ```
 
 ## SM4 算法
@@ -36,7 +36,7 @@ const pb = pinblock(pin, '', 16);
 
 //——ANSIX9.8 格式（带主账号信息）
 const pan = '123456789012345678';
-const res = pinblock2(pin, pan, 16);
+const res = pinblock(pin, pan, 16);
 ```
 
 ## API
